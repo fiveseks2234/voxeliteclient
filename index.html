@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VoxeliteClient</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f0f;
+      color: white;
+    }
+    header {
+      background: linear-gradient(90deg, #2e2e2e, #1c1c1c);
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: #00ffe1;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #cccccc;
+    }
+    .btn {
+      background-color: #00ffe1;
+      color: #000;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .features, .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 30px;
+      color: #aaa;
+    }
+    a {
+      color: #00ffe1;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>VoxeliteClient</h1>
+    <p>Nowoczesny klient Minecraft dla graczy PvP i modów</p>
+    <a href="#pobierz" class="btn">Pobierz klienta</a>
+  </header>
+
+  <section>
+    <h2>🚀 Funkcje</h2>
+    <div class="features">
+      <div class="card">
+        <h3>FPS Boost</h3>
+        <p>Lepsza wydajność i płynność rozgrywki dzięki optymalizacji silnika</p>
+      </div>
+      <div class="card">
+        <h3>HUD & Mod Menu</h3>
+        <p>Pełna personalizacja interfejsu: keystrokes, CPS, armor HUD i więcej</p>
+      </div>
+      <div class="card">
+        <h3>Bezpieczeństwo</h3>
+        <p>Regularne aktualizacje i zabezpieczenia anty-cheat</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>🖼️ Galeria</h2>
+    <div class="gallery">
+      <div class="card">[Zrzut ekranu 1]</div>
+      <div class="card">[Zrzut ekranu 2]</div>
+      <div class="card">[Zrzut ekranu 3]</div>
+    </div>
+  </section>
+
+  <section id="pobierz">
+    <h2>⬇️ Pobierz klienta</h2>
+    <p>Wersja dla Windows, MacOS i Linux – kliknij poniżej:</p>
+    <a class="btn" href="#">Pobierz VoxeliteClient</a>
+  </section>
+
+  <section>
+    <h2>📬 Kontakt & Wsparcie</h2>
+    <p>Masz pytania? Dołącz do nas na <a href="#">Discordzie</a> lub napisz na e-mail: kontakt@voxelite.pl</p>
+  </section>
+
+  <footer>
+    © 2025 VoxeliteClient. Wszelkie prawa zastrzeżone.
+  </footer>
+
+</body>
+</html>
